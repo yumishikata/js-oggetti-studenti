@@ -1,5 +1,4 @@
-//CREARE UN OGGETTO 
-
+$(function() {
 var studenteSingolo = {
     "nome": 'Yumi',
     "cognome": 'Shikata',
@@ -40,6 +39,7 @@ var studenti =
 
 for(var key in studenti){
     console.log(studenti[key]);
+
 }
 
 var nuovoStudente = {
@@ -53,3 +53,5 @@ studenti.push(nuovoStudente);
 for (var key in studenti){
     console.log(studenti[key]);
 }
+
+});
