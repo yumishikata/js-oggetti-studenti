@@ -6,7 +6,7 @@ var studenteSingolo = {
 }
 
 for(var key in studenteSingolo){
-    console.log(studenteSingolo[key]);
+    console.log(key + ': ' + studenteSingolo[key]);
 }
 
 var studenti = 
@@ -38,7 +38,7 @@ var studenti =
 ]
 
 for(var key in studenti){
-    console.log(studenti[key]);
+    console.log(studenti[key]['nome'] + ' ' + studenti[key]['cognome']);
 
 }
 
@@ -51,7 +51,7 @@ var nuovoStudente = {
 studenti.push(nuovoStudente);
 
 for (var key in studenti){
-    console.log(studenti[key]);
+    console.log(studenti[key]['nome'] + ' ' + studenti[key]['cognome']);
 }
 
 });
